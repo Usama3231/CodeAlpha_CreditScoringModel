@@ -1,0 +1,22 @@
+{
+  "checking_status": "0<=X<200",
+  "duration": 18,
+  "credit_history": "delayed previously",
+  "purpose": "business",
+  "credit_amount": 2427,
+  "savings_status": "no known savings",
+  "employment": ">=7",
+  "installment_commitment": 4,
+  "personal_status": "male single",
+  "other_parties": "none",
+  "residence_since": 2,
+  "property_magnitude": "life insurance",
+  "age": 42,
+  "other_payment_plans": "none",
+  "housing": "own",
+  "existing_credits": 2,
+  "job": "skilled",
+  "num_dependents": 1,
+  "own_telephone": "none",
+  "foreign_worker": "yes"
+}

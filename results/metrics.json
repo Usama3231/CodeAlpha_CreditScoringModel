@@ -1,0 +1,65 @@
+{
+  "dataset": {
+    "name": "Statlog German Credit (OpenML credit-g)",
+    "shape": [
+      1000,
+      20
+    ],
+    "target": "1 = good credit, 0 = bad credit",
+    "class_counts": {
+      "good": 700,
+      "bad": 300
+    }
+  },
+  "features": {
+    "numeric": [
+      "duration",
+      "credit_amount",
+      "installment_commitment",
+      "residence_since",
+      "age",
+      "existing_credits",
+      "num_dependents"
+    ],
+    "categorical": [
+      "checking_status",
+      "credit_history",
+      "purpose",
+      "savings_status",
+      "employment",
+      "personal_status",
+      "other_parties",
+      "property_magnitude",
+      "other_payment_plans",
+      "housing",
+      "job",
+      "own_telephone",
+      "foreign_worker"
+    ],
+    "total": 20
+  },
+  "best_model": "Random Forest",
+  "metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.705,
+      "precision": 0.7755,
+      "recall": 0.8143,
+      "f1_score": 0.7944,
+      "roc_auc": 0.7594
+    },
+    "Decision Tree": {
+      "accuracy": 0.685,
+      "precision": 0.7251,
+      "recall": 0.8857,
+      "f1_score": 0.7974,
+      "roc_auc": 0.6799
+    },
+    "Random Forest": {
+      "accuracy": 0.75,
+      "precision": 0.7848,
+      "recall": 0.8857,
+      "f1_score": 0.8322,
+      "roc_auc": 0.7827
+    }
+  }
+}
